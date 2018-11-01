@@ -32,9 +32,16 @@ input:focus {
 }
 
 .pokemon-container {
-  float: left;
+  /* float: left; */
   width: 250px;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon-frame {
+  display: inline-flex;
+  align-self: auto;
 }
 
 .center-text {
